@@ -143,7 +143,7 @@ Than to install :ref:`cmake` issue::
 
 and finally gcc6 with::
 
-  brew install homebrew/versions/gcc6
+  brew install gcc@6
 
 To generate manpages please also add the :ref:`pandoc` document format
 translator::
@@ -165,9 +165,9 @@ YMMV ;)
 To build with your installed gcc6 you will need to set the following variables
 in your environment before invoking :ref:`cmake`::
 
-  export CC=/usr/local/bin/gcc6
+  export CC=/usr/local/bin/gcc-6
   export CXX=/usr/local/bin/g++-6
-  export CPP=/usr/local/bin/gcc6
+  export CPP=/usr/local/bin/gcc-6
 
 homebrew is also the perfect place to get git and additions to git and gerrit.
 
